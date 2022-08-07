@@ -1,17 +1,18 @@
 package guru_qa;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FirstTest {
 
     @Test
     void firstTest() {
-        Assertions.assertTrue(3>=2);
+        assertTrue(3>2);
     }
 
     @Test
     void secondTest() {
-        Assertions.assertTrue(7>=6);
+        assertTrue(7>6);
     }
 }
